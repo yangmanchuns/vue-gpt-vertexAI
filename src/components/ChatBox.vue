@@ -48,7 +48,7 @@ export default {
   },
 
   mounted() {
-    this.ws = new WebSocket("wss://vue-gpt.onrender.com");
+    this.ws = new WebSocket("wss://server-vertex.onrender.com");
     //this.ws = new WebSocket("ws://localhost:3001");
 
     this.ws.onmessage = (event) => {
